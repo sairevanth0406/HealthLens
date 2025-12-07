@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, session, jsonify
 import requests, json, time, hashlib, os
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://healthlens-1.onrender.com"
 ADMIN_PASSWORD = "RANK"
 
 app = Flask(__name__)
