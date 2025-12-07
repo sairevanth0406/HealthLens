@@ -10,5 +10,4 @@ lxml
 rapidfuzz
 httpx
 asyncio
-pytz
-python-dotenv
+
