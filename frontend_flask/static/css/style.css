@@ -1,0 +1,49 @@
+/* PERFECT CLEANER LOGO SIZE */
+.hl-logo-big {
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+  background: white;
+  padding: 4px;
+  border: 1px solid #d9f2eb;
+  object-fit: contain;
+}
+
+/* TEXT SIZE & SPACING */
+.hl-title-big {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0b6e4f;
+  letter-spacing: -0.3px;
+  margin-bottom: -2px;
+}
+
+.hl-sub {
+  font-size: 13px;
+  color: #5d7770;
+}
+
+/* NAVBAR */
+.hl-navbar {
+  background: linear-gradient(90deg, rgba(11, 110, 79, 0.08), #ffffff);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* BODY */
+body.hl-bg {
+  background: #f6fbfb;
+}
+
+/* NAVBAR LINKS */
+.hl-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #0b6e4f !important;
+}
+
+.hl-link:hover {
+  color: #09563e !important;
+  text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+env/
+venv/
+.venv/
+.Python
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build output
+*.egg-info/
+dist/
+build/
+
+# Runtime JSON (should not be committed)
+frontend_flask/users.json
+api/data/source_weights.json
+api/data/search_history.json
+api/data/*.json
+
+# Logs
+*.log
+"@ | Out-File -Encoding UTF8 .gitignore

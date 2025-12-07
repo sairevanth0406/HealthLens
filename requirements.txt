@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+scrapy
+playwright
+streamlit
+pandas
+requests
+aiohttp
+rapidfuzz
+python-dotenv
+beautifulsoup4
+lxml

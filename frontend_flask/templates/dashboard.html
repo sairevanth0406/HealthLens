@@ -1,0 +1,85 @@
+{% extends "base.html" %} {% block content %}
+<div class="row">
+  <!-- LEFT SECTION -->
+  <div class="col-md-8">
+    <div class="card hl-card mb-4">
+      <div class="card-body">
+        <h4>Welcome, {{ user.email }}</h4>
+        <p class="text-muted">
+          Validate healthcare provider listings or review your search history.
+          Admins can also review & approve provider data corrections.
+        </p>
+
+        <div class="row gy-4">
+          <!-- VERIFY CARD -->
+          <div class="col-md-6">
+            <div class="stat-box p-4 shadow-sm">
+              <h5 class="mb-2" style="color: #0b6e4f">🔍 Verify Provider</h5>
+              <p class="text-muted small">
+                Check provider information from trusted public sources.
+              </p>
+              <a href="/verify" class="btn btn-primary w-100">Go to Verify</a>
+            </div>
+          </div>
+
+          <!-- HISTORY CARD -->
+          <div class="col-md-6">
+            <div class="stat-box p-4 shadow-sm">
+              <h5 class="mb-2" style="color: #0b6e4f">📚 Search History</h5>
+              <p class="text-muted small">
+                Review your previously validated provider searches.
+              </p>
+              <a href="/history" class="btn btn-outline-primary w-100"
+                >View History</a
+              >
+            </div>
+          </div>
+
+          <!-- ADMIN CARD (VISIBLE ONLY FOR ADMIN) -->
+          {% if user.admin %}
+          <div class="col-md-6">
+            <div
+              class="stat-box p-4 shadow-sm"
+              style="border-left: 4px solid #0b6e4f"
+            >
+              <h5 class="mb-2" style="color: #0b6e4f">🛠 Admin Panel</h5>
+              <p class="text-muted small">
+                Approve corrections, manage sources, view complete audit logs.
+              </p>
+              <a href="/admin" class="btn btn-success w-100"
+                >Open Admin Panel</a
+              >
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT SECTION: ABOUT PANEL -->
+  <div class="col-md-4">
+    <div class="card hl-card">
+      <div class="card-body">
+        <h5 style="color: #0b6e4f">About HealthLens</h5>
+        <p class="small text-muted">
+          HealthLens validates healthcare provider information such as phone
+          numbers, addresses, and credentials using verified public sources like
+          hospital websites, registries, and intelligence APIs.
+        </p>
+
+        <hr />
+
+        <p class="small"><strong>Features:</strong></p>
+        <ul class="small text-muted">
+          <li>Multi-source verification</li>
+          <li>Phone & address consistency checks</li>
+          <li>Drift detection over time</li>
+          <li>Admin correction system</li>
+          <li>Audit-ready search history</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

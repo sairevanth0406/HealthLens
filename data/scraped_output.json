@@ -1,0 +1,18 @@
+[
+  {
+    "source": "https://example-hospital.com/abc-clinic",
+    "name": "ABC Clinic",
+    "address": "123 MG Road, City",
+    "phone": "+91-9876543210",
+    "website": "https://example-hospital.com/abc",
+    "retrieved_at": 1765033361.0592158
+  },
+  {
+    "source": "https://gov-registry.example/abc-clinic",
+    "name": "ABC Clinic",
+    "address": "123 M.G. Rd, City",
+    "phone": "+91-9876543219",
+    "website": "https://gov-registry.example/abc",
+    "retrieved_at": 1765033361.0592158
+  }
+]

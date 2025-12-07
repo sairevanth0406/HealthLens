@@ -1,0 +1,80 @@
+{% extends "base.html" %} {% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8">
+    <div class="card hl-card">
+      <div class="card-body">
+        <h4>Verify Provider</h4>
+        <form method="post" class="mb-3">
+          <div class="mb-3">
+            <label class="form-label">Provider / Clinic Name</label>
+            <input
+              class="form-control"
+              name="provider"
+              required
+              placeholder="e.g., Basavatarakam Indo American Cancer Hospital"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Listed Phone</label>
+            <input
+              class="form-control"
+              name="phone"
+              placeholder="+91-XXXXXXXXXX"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Listed Address</label>
+            <input
+              class="form-control"
+              name="address"
+              placeholder="City / Area"
+            />
+          </div>
+          <button class="btn btn-primary" type="submit">Verify Provider</button>
+        </form>
+
+        {% if result %}
+        <div class="mb-3">
+          <h5>Verification Summary</h5>
+          <div class="result-panel p-3">
+            <p><strong>Confidence:</strong> {{ result.final_confidence }}</p>
+            <p>
+              <strong>Flag for review:</strong> {{ result.flag_for_manual_review
+              }}
+            </p>
+            <p>
+              <strong>Best candidate source:</strong> {{ result.candidate.source
+              }}
+            </p>
+          </div>
+
+          <h6 class="mt-3">Best Matching Candidate (scraped)</h6>
+          <pre class="small bg-light p-2">
+{{ result.candidate | tojson(indent=2) }}</pre
+          >
+
+          <h6 class="mt-3">Field Scores</h6>
+          <ul>
+            <li>Name similarity: {{ result.field_scores.name }}</li>
+            <li>Address similarity: {{ result.field_scores.address }}</li>
+            <li>Phone match: {{ result.field_scores.phone }}</li>
+          </ul>
+
+          {% if result.drift %}
+          <h6 class="mt-3">Drift</h6>
+          <p>
+            Drift score: {{ result.drift.drift_info.drift_score if
+            result.drift.drift_info else 'N/A' }}
+          </p>
+          <p>
+            Changed fields: {{ result.drift.drift_info.changed_fields if
+            result.drift.drift_info else 'N/A' }}
+          </p>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

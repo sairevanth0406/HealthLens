@@ -1,0 +1,40 @@
+{% extends "base.html" %} {% block content %}
+<div class="row">
+  <div class="col-md-10">
+    <div class="card hl-card">
+      <div class="card-body">
+        <h4>Search History</h4>
+        {% if not history %}
+        <div class="alert alert-info">No history found.</div>
+        {% else %} {% for r in history|reverse %}
+        <div class="mb-3 p-3 border rounded">
+          <div class="d-flex justify-content-between">
+            <div>
+              <strong>{{ r.provider }}</strong><br />
+              <small class="text-muted"
+                >{{ r.username }} • {{ (r.timestamp | int) | datetimeformat
+                }}</small
+              >
+            </div>
+            <div>
+              <button
+                class="btn btn-sm btn-outline-secondary"
+                data-bs-toggle="collapse"
+                data-bs-target="#item{{ loop.index }}"
+              >
+                View
+              </button>
+            </div>
+          </div>
+          <div class="collapse mt-2" id="item{{ loop.index }}">
+            <pre class="small bg-light p-2">
+{{ r.result | tojson(indent=2) }}</pre
+            >
+          </div>
+        </div>
+        {% endfor %} {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

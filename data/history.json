@@ -1,0 +1,182 @@
+{
+  "basavatarakam-indo-american-cancer-hospital": {
+    "name": "Basavatarakam Indo American Cancer Hospital",
+    "snapshots": [
+      {
+        "ts": 1765041524,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Basavatarakam Indo American Cancer Institute And Research Centre, Banjara Hills Road Number 10, BN Reddy Colony, Banjara Hills, Ward 92 Venkateshwara Colony, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Shaikpet mandal, Hyderabad, Telangana, 500034, India",
+          "phone": "04023552337",
+          "website": "https://induscancer.com/contact/",
+          "retrieved_at": 1765041524
+        }
+      },
+      {
+        "ts": 1765041591,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Basavatarakam Indo American Cancer Institute And Research Centre, Banjara Hills Road Number 10, BN Reddy Colony, Banjara Hills, Ward 92 Venkateshwara Colony, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Shaikpet mandal, Hyderabad, Telangana, 500034, India",
+          "phone": "04023552337",
+          "website": "https://induscancer.com/contact/",
+          "retrieved_at": 1765041591
+        }
+      },
+      {
+        "ts": 1765041831,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Basavatarakam Indo American Cancer Institute And Research Centre, Banjara Hills Road Number 10, BN Reddy Colony, Banjara Hills, Ward 92 Venkateshwara Colony, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Shaikpet mandal, Hyderabad, Telangana, 500034, India",
+          "phone": "04023552337",
+          "website": "https://induscancer.com/contact/",
+          "retrieved_at": 1765041831
+        }
+      },
+      {
+        "ts": 1765041872,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Basavatarakam Indo American Cancer Institute And Research Centre, Banjara Hills Road Number 10, BN Reddy Colony, Banjara Hills, Ward 92 Venkateshwara Colony, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Shaikpet mandal, Hyderabad, Telangana, 500034, India",
+          "phone": "04023552337",
+          "website": "https://induscancer.com/contact/",
+          "retrieved_at": 1765041872
+        }
+      },
+      {
+        "ts": 1765042211,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Banjara Hills, Hyderabad",
+          "phone": "04023552337",
+          "website": null,
+          "retrieved_at": 1765042211
+        }
+      },
+      {
+        "ts": 1765042358,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Jubilee Hills",
+          "phone": "9876543210",
+          "website": null,
+          "retrieved_at": 1765042358
+        }
+      },
+      {
+        "ts": 1765087549,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Banjara Hills",
+          "phone": "04023552337",
+          "website": null,
+          "retrieved_at": 1765087549
+        }
+      },
+      {
+        "ts": 1765087586,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Jubilee Hills",
+          "phone": "9999999999",
+          "website": null,
+          "retrieved_at": 1765087586
+        }
+      },
+      {
+        "ts": 1765087956,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Banjara Hills",
+          "phone": "04023552337",
+          "website": null,
+          "retrieved_at": 1765087956
+        }
+      },
+      {
+        "ts": 1765088053,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Banjara Hills",
+          "phone": "04023552337",
+          "website": null,
+          "retrieved_at": 1765088053
+        }
+      },
+      {
+        "ts": 1765090111,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Banjara Hills",
+          "phone": "04023552337",
+          "website": null,
+          "retrieved_at": 1765090111
+        }
+      },
+      {
+        "ts": 1765090148,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Banjara Hills, Hyderabad",
+          "phone": "04023552337",
+          "website": null,
+          "retrieved_at": 1765090148
+        }
+      },
+      {
+        "ts": 1765090188,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Jubilee Hills",
+          "phone": "9876543210",
+          "website": null,
+          "retrieved_at": 1765090188
+        }
+      },
+      {
+        "ts": 1765090255,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Banjara Hills",
+          "phone": "04023552337",
+          "website": null,
+          "retrieved_at": 1765090255
+        }
+      },
+      {
+        "ts": 1765092980,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Banjara Hills, Hyderabad",
+          "phone": "04023552337",
+          "website": null,
+          "retrieved_at": 1765092980
+        }
+      },
+      {
+        "ts": 1765095698,
+        "candidate": {
+          "name": "Basavatarakam Indo American Cancer Hospital",
+          "address": "Banjara Hills, Hyderabad",
+          "phone": "04023552337",
+          "website": null,
+          "retrieved_at": 1765095697
+        }
+      }
+    ]
+  },
+  "basavatarakam": {
+    "name": "basavatarakam",
+    "snapshots": [
+      {
+        "ts": 1765041779,
+        "candidate": {
+          "name": "basavatarakam",
+          "address": "Basavatarakam Indo American Cancer Institute And Research Centre, Banjara Hills Road Number 10, BN Reddy Colony, Banjara Hills, Ward 92 Venkateshwara Colony, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Shaikpet mandal, Hyderabad, Telangana, 500034, India",
+          "phone": "04023552337",
+          "website": "https://induscancer.com/contact/",
+          "retrieved_at": 1765041779
+        }
+      }
+    ]
+  }
+}
