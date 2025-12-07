@@ -68,7 +68,6 @@ Admin correction system
 
 Secure login + user history tracking
 
-⚙️ System Architecture
 <img width="672" height="1380" alt="_- visual selection (22)" src="https://github.com/user-attachments/assets/831d7442-e876-48d0-966e-222d6ae82627" />
 
 
